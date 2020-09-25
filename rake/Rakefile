@@ -1,0 +1,11 @@
+desc 'Hello, Rake Task'
+task :hello do
+  puts 'hello, Rake!'
+end
+
+# rake -Tで実行すると`desc ''`に入れたタスクの概要が出力される
+# YUNAs-MacBook-Air:rake yuna$ rake -T
+# rake hello  # Hello, Rake Task
+# タスクを実行してみる
+# YUNAs-MacBook-Air:rake yuna$ rake hello
+# hello, Rake!
